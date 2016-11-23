@@ -1,0 +1,350 @@
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeueCyr-Light.otf');
+}
+
+.background {
+	position: absolute;
+	width: 100%;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	background-color: #06508F;	
+} 
+
+.box1 {
+	float: right;
+}
+
+.box1 li {
+	display: inline-block;
+}
+
+.box1 li:nth-child(2) {
+	margin-left: 4px;
+}
+
+.box1 li:nth-child(3) {
+	margin-left: -19px;
+}
+
+.box1 li:nth-child(4) {
+	margin-left: -14px;
+}
+
+.box1 li:nth-child(5) {
+	margin-left: -12px;
+}
+
+.box1 a {
+	display: block;
+	width: 80px;
+	height: 36px;
+	text-align: center;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	color: #60b5ed;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.box1 a:hover {
+	background-color: #4eabda;
+	background-size: 50%;
+	color: white;
+	font-weight: bold;
+}
+
+.box1 p {
+	padding-top: 10px;
+}
+
+.box2 {
+	float: right;
+	width: 143px;
+	padding-left: 19px;
+	border-left: 1px solid #56a2dc;
+}
+
+.box2 li {
+	display: inline-block;
+}
+
+.box2 a {
+	text-decoration: none;
+}
+
+.box2 img {
+	position: absolute;
+	padding-top: 6px;
+}
+
+.box2 span {
+	display: block;
+	margin-left: 30px;
+	margin-top: 10px;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.box3 {
+	float: right;
+	margin-right: 20px;
+}
+
+.box3 li {
+	display: inline-block;
+	background-image: url('../img/ola.png');
+	width: 190px;
+}
+
+.box3 a {
+	display: block;
+	line-height: 35px;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.box3 span {
+	display: block;
+	padding: 0 12px;
+	word-spacing: 1px;
+}
+
+			/*CONTENT*/
+
+.cadastre {
+	margin-left: 33%;
+	padding-top: 249px;
+}
+
+.top-line {
+	position: relative;
+	width: 560px;
+	height: 62px;
+	background-color: rgba(31, 31, 31, 0.7);
+}
+
+.top-line p {
+	padding-top: 20px;
+	margin-left: 213px;
+	color: white;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.log {
+	position: relative;
+	width: 560px;
+	height: 109px;
+	margin-top: 2px;
+	padding-top: 35px;
+	background-color: rgba(31, 31, 31, 0.7);
+}
+
+.log a {
+	text-decoration: none;
+}
+
+.log .facebook {
+	width: 276px;
+	height: 35px;
+	margin-left: 142px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+3,64769e+6,475a85+9,425782+12,405489+21,394c77+59,354671+79,36416e+91,374069+94,000000+97,000000+100&0+0,0+3,1+6,1+94,0+97,0+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 3%, rgba(100,118,158,1) 6%, rgba(71,90,133,1) 9%, rgba(66,87,130,1) 12%, rgba(64,84,137,1) 21%, rgba(57,76,119,1) 59%, rgba(53,70,113,1) 79%, rgba(54,65,110,1) 91%, rgba(55,64,105,1) 94%, rgba(0,0,0,0) 97%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 3%,rgba(100,118,158,1) 6%,rgba(71,90,133,1) 9%,rgba(66,87,130,1) 12%,rgba(64,84,137,1) 21%,rgba(57,76,119,1) 59%,rgba(53,70,113,1) 79%,rgba(54,65,110,1) 91%,rgba(55,64,105,1) 94%,rgba(0,0,0,0) 97%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 3%,rgba(100,118,158,1) 6%,rgba(71,90,133,1) 9%,rgba(66,87,130,1) 12%,rgba(64,84,137,1) 21%,rgba(57,76,119,1) 59%,rgba(53,70,113,1) 79%,rgba(54,65,110,1) 91%,rgba(55,64,105,1) 94%,rgba(0,0,0,0) 97%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	border-radius: 10%;
+	color: white;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+.log .facebook .f {
+	display: inline-block;
+	margin-top: 4px;
+	padding-top: 2px;
+	padding-left: 15px;
+	padding-right: 14px;
+	font-size: 26px;
+	font-weight: bold;
+	border-right: 1px solid rgba(38, 54, 82, 0.7);
+	-webkit-box-shadow: 1px 0px 0px 0px rgba(159,201,252,0.77);
+	-moz-box-shadow: 1px 0px 0px 0px rgba(159,201,252,0.77);
+	box-shadow: 1px 0px 0px 0px rgba(87,112,142,0.77);
+}
+
+.log .facebook .log_in {
+	display: inline-block;
+	vertical-align: super;
+	padding-left: 31px;
+	font-size: 15px;
+	word-spacing: 3px;
+	letter-spacing: -0.5px;
+}
+
+.log .facebook .with {
+	letter-spacing: 0.5px;
+	word-spacing: 1.5px;	
+}
+
+.log .facebook .arrow {
+	margin-left: 17px;
+}
+
+.log .facebook strong {
+	font-weight: bold;
+}
+
+.ou {
+	width: 100px;
+	margin-bottom: 74px;
+}
+
+.ou_line1 {
+	position: absolute;
+	width: 122px;
+	margin-top: 39px;
+	margin-left: 142px;
+	border-bottom: 1px solid rgba(177, 169, 169, 0.49);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+}
+
+.ou_line2 {
+	position: absolute;
+	width: 122px;
+	margin-top: 39px;
+	margin-left: 297px;
+	border-bottom: 1px solid rgba(177, 169, 169, 0.49);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+}
+
+.ou_text {
+	position: absolute;
+	display: block;
+	margin-top: 33px;
+	margin-left: 270px;
+	color: #999;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/*FORMS*/
+
+form {
+	position: relative;
+	width: 560px;
+	height: 356px;
+	background-color: rgba(31, 31, 31, 0.7);
+}
+
+.forms {
+	position: relative;
+	margin-left: 140px;
+}
+
+.forms input {
+	display: block;
+	width: 258px;
+	height: 35px;
+	margin-bottom: 17px;
+	padding-left: 19px;
+	color: white;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #100F0F;
+	border: none;
+	border-bottom: 1px solid #5a5a51;
+}
+
+.forms input:nth-child(2) {
+	margin-bottom: 14px;
+}
+
+.forms input:nth-child(3) {
+	margin-bottom: 14px;
+}
+
+.forms input:nth-child(4) {
+	margin-bottom: 11px;
+}
+
+.forms input:focus {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,1e5799+80&0+1,0.8+1,0.8+1,1+19,1+81,0.8+100,0+100,0.8+100 */
+	background: -webkit-linear-gradient(rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 100%);
+	background: -o-linear-gradient(rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 100%);
+	background: linear-gradient(rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc1e5799', endColorstr='#cc1e5799',GradientType=0 ); /* IE6-9 */
+	box-shadow: -webkit-box-shadow: 0px 0px 8px 1px rgba(93,160,227,1);
+	-moz-box-shadow: 0px 0px 8px 1px rgba(93,160,227,1);
+	box-shadow: 0px 0px 8px 1px rgba(93,160,227,1);	
+}
+
+.flag {
+	margin-left: 140px;
+	color: #ccc;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+button {
+	width: 155px;
+	height: 41px;
+	margin-left: 203px;
+	margin-top: 19px;
+    border-radius: 8%;
+    border-color: #2d3b46 #21405a #6a819e;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,1f87e2+0,459ae0+6,1f87e2+35,1f87e2+35,4499d2+97,7fb7e2+100&1+0,0.94+7,0.78+13,0.79+19,0.79+19,0.66+27,0.85+54,0.81+66,0.81+85,0.7+94,0.85+99,0.93+99,1+100 */
+    background: -moz-linear-gradient(top,  rgba(31,135,226,1) 0%, rgba(69,154,224,0.95) 6%, rgba(68,153,224,0.94) 7%, rgba(60,149,224,0.78) 13%, rgba(52,145,225,0.79) 19%, rgba(42,140,226,0.66) 27%, rgba(31,135,226,0.72) 35%, rgba(42,141,221,0.85) 54%, rgba(49,144,218,0.81) 66%, rgba(61,150,213,0.81) 85%, rgba(66,152,211,0.7) 94%, rgba(68,153,210,0.84) 97%, rgba(107,173,221,0.93) 99%, rgba(127,183,226,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(31,135,226,1) 0%,rgba(69,154,224,0.95) 6%,rgba(68,153,224,0.94) 7%,rgba(60,149,224,0.78) 13%,rgba(52,145,225,0.79) 19%,rgba(42,140,226,0.66) 27%,rgba(31,135,226,0.72) 35%,rgba(42,141,221,0.85) 54%,rgba(49,144,218,0.81) 66%,rgba(61,150,213,0.81) 85%,rgba(66,152,211,0.7) 94%,rgba(68,153,210,0.84) 97%,rgba(107,173,221,0.93) 99%,rgba(127,183,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(31,135,226,1) 0%,rgba(69,154,224,0.95) 6%,rgba(68,153,224,0.94) 7%,rgba(60,149,224,0.78) 13%,rgba(52,145,225,0.79) 19%,rgba(42,140,226,0.66) 27%,rgba(31,135,226,0.72) 35%,rgba(42,141,221,0.85) 54%,rgba(49,144,218,0.81) 66%,rgba(61,150,213,0.81) 85%,rgba(66,152,211,0.7) 94%,rgba(68,153,210,0.84) 97%,rgba(107,173,221,0.93) 99%,rgba(127,183,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f87e2', endColorstr='#7fb7e2',GradientType=0 ); /* IE6-9 */
+}
+
+button span {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	word-spacing: 3px;
+}
+
+footer {
+	position: relative;
+	width: 560px;
+	height: 50px;
+	background-color: rgba(31, 31, 31, 0.7);	
+}
+
+.button {
+	width: 319px;
+	height: 28px;
+	margin-left: 117px;
+	line-height: 16px;
+	color: #ccc;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 0.2px;
+}
+
